@@ -5,9 +5,9 @@ import SwiftUI
 
 public extension View {
   @available(iOS 15.0, *)
-  func prepareDefaultPromoNotifications() -> some View {
+  func prepareDefaultPromoNotifications(_ models: [NotiModel] = []) -> some View {
     task {
-      await NotiService.shared.schedule(defaultPromoModels)
+      await NotiService.shared.schedule(defaultPromoModels + models)
     }
   }
 }
@@ -15,9 +15,9 @@ public extension View {
 #if canImport(UIKit)
   public extension UIApplicationDelegate {
     @available(iOS 15.0, *)
-    func prepareDefaultPromoNotifications() {
+    func prepareDefaultPromoNotifications(_ models: [NotiModel] = []) {
       Task {
-        await NotiService.shared.schedule(defaultPromoModels)
+        await NotiService.shared.schedule(defaultPromoModels + models)
       }
     }
   }

@@ -31,22 +31,23 @@ public class NotiService: NSObject {
     }
 
     let calendar = Calendar.current
-
+    logger.debug("models count: \(models.count)")
     for model in models {
-      // 确保只设置未来的时间
-      guard model.triggerDate > Date() else { continue }
       // 构造内容
       let content = UNMutableNotificationContent()
       content.title = model.title
       content.body = model.body
       content.sound = .default
 
-      let components = calendar.dateComponents([.year, .month, .day, .hour, .minute], from: model.triggerDate)
+      // 只提取月、日、时、分，忽略年份
+      let components = calendar.dateComponents([.month, .day, .hour, .minute], from: model.triggerDate)
+      // 系统会自动计算下一个符合该组件的时间点
       let trigger = UNCalendarNotificationTrigger(dateMatching: components, repeats: false)
       let request = UNNotificationRequest(identifier: model.id, content: content, trigger: trigger)
+
       do {
         try await UNUserNotificationCenter.current().add(request)
-        logger.debug("new notification added.\(request)")
+        logger.debug("Scheduled '\(model.title)' with components: \(components)")
       } catch {
         logger.error("error: \(error.localizedDescription)")
       }
