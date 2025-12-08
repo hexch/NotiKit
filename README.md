@@ -1,5 +1,9 @@
 # NotiKit
 
+[![Swift Version](https://img.shields.io/badge/Swift-6-orange.svg)](https://swift.org)
+[![Platform](https://img.shields.io/badge/platform-iOS%20%7C%20macOS%20%7C%20visionOS%20%7C%20watchOS-lightgrey.svg)](https://developer.apple.com/)
+[![Swift Package CI](https://github.com/hexch/NotiKit/actions/workflows/build.yml/badge.svg)](https://github.com/hexch/NotiKit/actions/workflows/build.yml)
+
 NotiKit is a lightweight Swift package designed to simplify the scheduling of local notifications in iOS applications. It provides a clean API for defining notification models and scheduling them with ease, along with built-in support for default promotional notifications.
 
 ## Features
