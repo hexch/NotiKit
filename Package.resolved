@@ -1,0 +1,15 @@
+{
+  "originHash" : "bf434805d50a2e3ae443c00c1cdab2ce023207565e54d6d8c2ace67fc1cc2afd",
+  "pins" : [
+    {
+      "identity" : "loggerkit",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/hexch/LoggerKit.git",
+      "state" : {
+        "revision" : "02672872e663f9913e7fd19767a0a79d2db3e87c",
+        "version" : "0.1.4"
+      }
+    }
+  ],
+  "version" : 3
+}

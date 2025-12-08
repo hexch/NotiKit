@@ -1,0 +1,29 @@
+# 缩进使用空格
+--indent 2 
+
+# 最大行宽
+--maxwidth 120
+
+# 导入排序
+--importgrouping testable-bottom
+
+# 去除尾随空格
+--trimwhitespace always
+
+# 添加尾随逗号
+--trailingcommas always
+
+# 空行规则
+--stripunusedargs closure-only
+
+# 自闭合标签
+--self remove
+--selfrequired 
+
+# 分号处理
+--semicolons inline
+
+# 换行符
+--linebreaks lf
+
+--swiftversion 6.0

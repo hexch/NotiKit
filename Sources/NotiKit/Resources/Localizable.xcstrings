@@ -1,0 +1,328 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "default_promo_body" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أفضل فرصة للترقية إلى Pro والاستمتاع بتجربة خالية من الإعلانات 🎁"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nejlepší šance upgradovat na Pro a užít si zážitek bez reklam 🎁"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedste chance for at opgradere til Pro og nyde en reklamefri oplevelse 🎁"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beste Chance für ein Upgrade auf Pro und ein werbefreies Erlebnis 🎁"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Best chance to upgrade to Pro and enjoy an ad-free experience 🎁"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La mejor oportunidad para actualizar a Pro y disfrutar de una experiencia sin anuncios 🎁"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paras mahdollisuus päivittää Pro-versioon ja nauttia mainoksettomasta kokemuksesta 🎁"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meilleure chance de passer à Pro et de profiter d'une expérience sans publicité 🎁"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A legjobb lehetőség a Pro-ra való frissítésre és a reklámmentes élmény élvezetére 🎁"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kesempatan terbaik untuk upgrade ke Pro dan nikmati pengalaman bebas iklan 🎁"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La migliore occasione per passare a Pro e goderti un'esperienza senza pubblicità 🎁"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Proにアップグレードして、広告なしの体験を楽しむ絶好のチャンスです 🎁"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro로 업그레이드하고 광고 없는 경험을 즐길 수 있는 최고의 기회 🎁"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Peluang terbaik untuk menaik taraf ke Pro dan nikmati pengalaman tanpa iklan 🎁"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beste sjanse til å oppgradere til Pro og nyte en reklamefri opplevelse 🎁"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beste kans om te upgraden naar Pro en te genieten van een advertentievrije ervaring 🎁"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Najlepsza szansa na ulepszenie do Pro i cieszenie się brakiem reklam 🎁"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A melhor oportunidade para atualizar para Pro e desfrutar de uma experiência sem anúncios 🎁"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лучший шанс обновить до Pro и наслаждаться отсутствием рекламы 🎁"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bästa chansen att uppgradera till Pro och njuta av en reklamfri upplevelse 🎁"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "โอกาสที่ดีที่สุดในการอัปเกรดเป็น Pro และเพลิดเพลินกับประสบการณ์ไร้โฆษณา 🎁"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pro'ya yükseltmek ve reklamsız bir deneyimin tadını çıkarmak için en iyi şans 🎁"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cơ hội tốt nhất để nâng cấp lên Pro và tận hưởng trải nghiệm không quảng cáo 🎁"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "升级到 Pro 并享受无广告体验的最佳机会 🎁"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "升級到 Pro、享受無廣告體驗的最佳機會🎁"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "升級至 Pro 盡享無廣告體驗的最佳機會 🎁"
+          }
+        }
+      }
+    },
+    "default_promo_title" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ عرض لفترة محدودة 🎉"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Časově omezená nabídka 🎉"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Tidsbegrænset tilbud 🎉"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Zeitlich begrenztes Angebot 🎉"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Limited Time Offer 🎉"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Oferta por tiempo limitado 🎉"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Rajoitettu tarjous 🎉"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Offre à durée limitée 🎉"
+          }
+        },
+        "hu" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Korlátozott idejű ajánlat 🎉"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Penawaran Waktu Terbatas 🎉"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Offerta a tempo limitato 🎉"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ 期間限定オファー 🎉"
+          }
+        },
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ 한정 기간 혜택 🎉"
+          }
+        },
+        "ms" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Tawaran Masa Terhad 🎉"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Begrenset tilbud 🎉"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Tijdelijke aanbieding 🎉"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Oferta ograniczona czasowo 🎉"
+          }
+        },
+        "pt-PT" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Oferta por tempo limitado 🎉"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Ограниченное по времени предложение 🎉"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Begränsat erbjudande 🎉"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ ข้อเสนอมีเวลาจำกัด 🎉"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Sınırlı Süreli Teklif 🎉"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ Ưu đãi có hạn 🎉"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ 限时优惠 🎉"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ 限時優惠 🎉"
+          }
+        },
+        "zh-HK" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "⏳ 限時優惠 🎉"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.1"
+}
