@@ -11,3 +11,12 @@ public extension View {
     }
   }
 }
+
+public extension UIApplicationDelegate {
+  @available(iOS 15.0, *)
+  func prepareDefaultPromoNotifications() {
+    Task {
+      await NotiService.shared.schedule(defaultPromoModels)
+    }
+  }
+}
