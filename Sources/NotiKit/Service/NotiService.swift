@@ -60,6 +60,7 @@ public class NotiService: NSObject {
     let ids = requests.filter { $0.identifier.hasPrefix(type.rawValue) }
       .map(\.identifier)
     notificationCenter.removePendingNotificationRequests(withIdentifiers: ids)
+    logger.debug("cancelled \(ids.count) requests.\(ids)")
   }
 
   public func pendingNotificationRequests() async -> [UNNotificationRequest] {
