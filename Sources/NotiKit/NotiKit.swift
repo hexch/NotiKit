@@ -46,7 +46,7 @@ public extension View {
 
 #if canImport(UIKit)
 @available(iOS 15.0, *)
-func notiKitPrepareDefaultPromoNotifications(_ models: [NotiModel] = []) {
+public func notiKitPrepareDefaultPromoNotifications(_ models: [NotiModel] = []) {
   let notiModels = notKitDefaultPromoNotifications + models
   if notiModels.isEmpty { return }
   Task {
