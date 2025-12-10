@@ -47,7 +47,7 @@ public class NotiService: NSObject {
 
       do {
         try await UNUserNotificationCenter.current().add(request)
-        logger.debug("Scheduled '\(model.title)' with components: \(components)")
+        logger.debug("Scheduled \(model.id) '\(model.title)' with components: \(components)")
       } catch {
         logger.error("error: \(error.localizedDescription)")
       }
@@ -60,6 +60,7 @@ public class NotiService: NSObject {
     let ids = requests.filter { $0.identifier.hasPrefix(type.rawValue) }
       .map(\.identifier)
     notificationCenter.removePendingNotificationRequests(withIdentifiers: ids)
+    logger.debug("cancelled \(ids.count) requests.\(ids)")
   }
 
   public func pendingNotificationRequests() async -> [UNNotificationRequest] {

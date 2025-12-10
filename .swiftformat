@@ -26,4 +26,8 @@
 # 换行符
 --linebreaks lf
 
+# 缩进条件编译
+--ifdef no-indent
+
+# Swift 版本
 --swiftversion 6.0
