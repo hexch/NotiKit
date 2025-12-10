@@ -45,14 +45,12 @@ public extension View {
 }
 
 #if canImport(UIKit)
-public extension UIApplicationDelegate {
-  @available(iOS 15.0, *)
-  func prepareDefaultPromoNotifications(_ models: [NotiModel] = []) {
-    let notiModels = notKitDefaultPromoNotifications + models
-    if notiModels.isEmpty { return }
-    Task {
-      await NotiService.shared.schedule(notiModels)
-    }
+@available(iOS 15.0, *)
+func notiKitPrepareDefaultPromoNotifications(_ models: [NotiModel] = []) {
+  let notiModels = notKitDefaultPromoNotifications + models
+  if notiModels.isEmpty { return }
+  Task {
+    await NotiService.shared.schedule(notiModels)
   }
 }
 #endif // canImport(UIKit)
