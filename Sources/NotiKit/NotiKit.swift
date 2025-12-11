@@ -35,12 +35,10 @@ private let notKitDefaultPromoNotifications: [NotiModel] = notiKitImportantDates
 
 public extension View {
   @available(iOS 15.0, *)
-  func prepareDefaultPromoNotifications(_ models: [NotiModel] = []) -> some View {
-    task {
-      let notiModels = notKitDefaultPromoNotifications + models
-      if notiModels.isEmpty { return }
-      await NotiService.shared.schedule(notiModels)
-    }
+  func prepareDefaultPromoNotifications(_ models: [NotiModel] = []) async {
+    let notiModels = notKitDefaultPromoNotifications + models
+    if notiModels.isEmpty { return }
+    await NotiService.shared.schedule(notiModels)
   }
 }
 

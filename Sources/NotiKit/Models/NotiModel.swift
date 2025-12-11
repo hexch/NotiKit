@@ -22,7 +22,7 @@ public struct NotiModel: Codable, Identifiable, Sendable {
     self.triggerDate = triggerDate
 
     let formatter = DateFormatter()
-    formatter.dateFormat = "yyyyMMddHHmmss"
+    formatter.dateFormat = "MMddHHmm"
     formatter.locale = Locale(identifier: "en_US_POSIX")
 
     id = type.rawValue + formatter.string(from: triggerDate)
